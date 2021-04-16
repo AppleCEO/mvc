@@ -13,6 +13,8 @@
 		33091532262966F500DC83A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33091530262966F500DC83A7 /* Main.storyboard */; };
 		33091534262966F800DC83A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33091533262966F800DC83A7 /* Assets.xcassets */; };
 		33091537262966F800DC83A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33091535262966F800DC83A7 /* LaunchScreen.storyboard */; };
+		3309154026296BB700DC83A7 /* CatDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3309153F26296BB700DC83A7 /* CatDataSource.swift */; };
+		3309154326296BE800DC83A7 /* SmileyDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3309154226296BE800DC83A7 /* SmileyDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		33091533262966F800DC83A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33091536262966F800DC83A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		33091538262966F800DC83A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3309153F26296BB700DC83A7 /* CatDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatDataSource.swift; sourceTree = "<group>"; };
+		3309154226296BE800DC83A7 /* SmileyDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmileyDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				33091533262966F800DC83A7 /* Assets.xcassets */,
 				33091535262966F800DC83A7 /* LaunchScreen.storyboard */,
 				33091538262966F800DC83A7 /* Info.plist */,
+				3309153F26296BB700DC83A7 /* CatDataSource.swift */,
+				3309154226296BE800DC83A7 /* SmileyDataSource.swift */,
 			);
 			path = mvc;
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3309154326296BE800DC83A7 /* SmileyDataSource.swift in Sources */,
 				3309152F262966F500DC83A7 /* ViewController.swift in Sources */,
+				3309154026296BB700DC83A7 /* CatDataSource.swift in Sources */,
 				3309152B262966F500DC83A7 /* AppDelegate.swift in Sources */,
 				3309152D262966F500DC83A7 /* SceneDelegate.swift in Sources */,
 			);
